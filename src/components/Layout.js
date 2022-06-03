@@ -13,6 +13,9 @@ const DivLight = styled.div`
   a {
     padding: 2px;
   }
+  ul li {
+    text-align: left;
+  }
 `;
 
 const DivDark = styled.div`
@@ -29,26 +32,30 @@ const DivDark = styled.div`
   td {
     padding: 0.5em 1em;
   }
+  ul li {
+    text-align: left;
+  }
 `;
 
-export default ({ children, color, image, light, half }) => {
+export default ({ children, color, image, light, half, twocolumn, leftTitle, serif}) => {
   let style = {
-    width: "100vw",
+    width: twocolumn?"50vw":"100vw",
     height: "100vw",
-    padding: `0 ${half ? "25%" : "10%"}`,
+    padding: `0 ${half ||twocolumn ? "25%" : "10%"}`,
     backgroundColor: color,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: leftTitle?"left":"center",
     display: "flex",
     flexDirection: "column",
     color: light ? "#000" : "#fff",
+    fontFamily: serif?"Times New Roman":"Nunito, Helvetica, Arial, Sans-Serif",
   };
 
   if (image) {
     style = {
       ...style,
       background: `url(${image})`,
-      backgroundSize: "cover",
+      backgroundSize: "contain",
     };
   }
 

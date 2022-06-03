@@ -4,9 +4,9 @@
 
 **Thursday June 3 @ 12- 1PM**
 
-Delve into the changing role being played by big and small tech corporations to increase their impact and make the world a better place
+Web3 is an emerging structure for the next generation of the internet that has the answer to decentralization, transparency and ownership.   In this session, you'll learn the basics of web3.  We'll connect the dots from the fundamentals to what you're hearing in the news about the Metaverse, NFTs, crypto. Most importantly, you'll walk away with practical first steps to learning and getting involved. 
 
-In this Brown Bag Lunch, we’ll explore how tech is being used as a strategic resource to make the world a better place. We’ll look into the role being played by big and small tech corporations and how the “in-kind” space is changing. We’ll also touch on basic cloud concepts and how that work is creating an impact. Then to wrap up, we’ll discuss how you can get involved and play a part.
+Join this Brown Bag Lunch to break through the buzz and learn what future of the internet has in store for you and your work. Brett Tackaberry, CTO of Rebel and Impact Hub Ottawa’s Technology & Cloud coach, will walk you through the fundamentals of web3, helping to make sense of everything from crypto and NFTs to the metaverse and what it all means for you.
 
 Brown Bag Lunches are Impact Hub Ottawa’s weekly lunch & learns led by Hubbers, for members and non-members alike. Topics vary each week, but you’re always sure to learn something new!
 
