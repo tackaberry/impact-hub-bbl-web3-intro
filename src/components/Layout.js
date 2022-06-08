@@ -37,7 +37,21 @@ const DivDark = styled.div`
   }
 `;
 
-export default ({ children, color, image, light, half, twocolumn, leftTitle, serif}) => {
+export default ({ children, color, image, light, half, twocolumn, leftTitle, serif, courier, green}) => {
+
+  let font = "Nunito, Helvetica, Arial, Sans-Serif"
+  if(serif){
+    font = "Times New Roman"
+  }else if(courier){
+    font = "Courier"
+  }
+
+  let fontColor = "#fff"
+  if(light){
+    fontColor="#000"
+  }else if(green){
+    fontColor="#0f0"
+  }
   let style = {
     width: twocolumn?"50vw":"100vw",
     height: "100vw",
@@ -47,8 +61,8 @@ export default ({ children, color, image, light, half, twocolumn, leftTitle, ser
     alignItems: leftTitle?"left":"center",
     display: "flex",
     flexDirection: "column",
-    color: light ? "#000" : "#fff",
-    fontFamily: serif?"Times New Roman":"Nunito, Helvetica, Arial, Sans-Serif",
+    color: fontColor,
+    fontFamily: font,
   };
 
   if (image) {
