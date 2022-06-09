@@ -68,7 +68,7 @@ export default ({ children, color, image, light, half, twocolumn, leftTitle, ser
   if (image) {
     style = {
       ...style,
-      background: `url(${image})`,
+      background: `url(${image}) 0% 50%`,
       backgroundSize: "contain",
     };
   }
