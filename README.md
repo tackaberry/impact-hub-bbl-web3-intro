@@ -12,11 +12,8 @@ Brown Bag Lunches are Impact Hub Ottawa’s weekly lunch & learns led by Hubbers
 
 Slides deployed [here](http://impact-hub-bbl-web3-intro.s3-website.ca-central-1.amazonaws.com/).
 
-[On Impact Hub](https://ottawa.impacthub.net/event/)
+[On Impact Hub](https://ottawa.impacthub.net/event/what-is-web3-why-should-you-care/)
 
-[On Eventbrite](https://www.eventbrite.com/e/)
-
-[On YouTube]()
 
 ### Related
 
